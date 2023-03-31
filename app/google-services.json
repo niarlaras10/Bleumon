@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "365386655477",
+    "project_id": "bleumon-dee67",
+    "storage_bucket": "bleumon-dee67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365386655477:android:042a1f1c3b9b88cce087bc",
+        "android_client_info": {
+          "package_name": "com.example.bleumon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365386655477-0vb5i875gfpqlrlee58mrh9v898a6bs8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzBmBuUHW9xOt1Tylb16ourtiGeghN3oU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365386655477-0vb5i875gfpqlrlee58mrh9v898a6bs8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
