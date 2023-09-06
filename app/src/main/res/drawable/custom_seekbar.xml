@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- custom_seekbar.xml -->
+    <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@android:id/background">
+            <shape android:shape="rectangle">
+                <solid android:color="#8c979A" /> <!-- Warna latar belakang seekbar -->
+                <corners android:radius="8dp" /> <!-- Sudut radius -->
+            </shape>
+        </item>
+        <item android:id="@android:id/progress">
+            <scale android:scaleWidth="80%">
+                <selector>
+                    <item android:state_pressed="true">
+                        <shape android:shape="rectangle">
+                            <solid android:color="#007ACC" /> <!-- Warna progress seekbar saat ditekan -->
+                            <corners android:radius="10dp" /> <!-- Sudut radius -->
+                        </shape>
+                    </item>
+                    <item>
+                        <shape android:shape="rectangle">
+                            <solid android:color="#3F51B5" /> <!-- Warna progress seekbar saat normal -->
+                            <corners android:radius="10dp" /> <!-- Sudut radius -->
+                        </shape>
+                    </item>
+                </selector>
+            </scale>
+        </item>
+    </layer-list>
+
+
+</selector>

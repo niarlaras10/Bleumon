@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".HomePage">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="32dp">
+
+        <!-- Vertical LinearLayout for showName and button -->
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="32dp">
+
+            <!-- Horizontal LinearLayout for showName and button -->
+
+            <LinearLayout
+                android:id="@+id/linearLayoutShowName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingTop="80dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="32dp">
+
+                <TextView
+                    android:id="@+id/showName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Halo,"
+                    android:textSize="35dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/logoutBtn"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="end"
+                    android:layout_marginStart="216dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/logout"
+                    app:layout_constraintStart_toEndOf="@+id/showName"
+                    app:layout_constraintTop_toTopOf="@+id/showName" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/welcomeText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="70dp"
+                android:text="Selamat Datang Di Bluemon"
+                android:textSize="35dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/measure"
+        android:layout_width="265dp"
+        android:layout_height="76dp"
+        android:layout_margin="15dp"
+        android:backgroundTint="#3F51B5"
+        android:background="@android:drawable/btn_default"
+        android:fontFamily="sans-serif"
+        android:text="Pengukuran"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#F3F1F1"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout2"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/History"
+        android:layout_width="265dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="32dp"
+        android:background="#3F51B5"
+        android:backgroundTint="#3F51B5"
+        android:fontFamily="sans-serif"
+        android:text="Lihat Histori"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#F3F1F1"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/measure"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/measure"
+        app:layout_constraintTop_toBottomOf="@+id/measure"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/feature"
+        android:layout_width="265dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="32dp"
+        android:background="#3F51B5"
+        android:backgroundTint="#3F51B5"
+        android:fontFamily="sans-serif"
+        android:text="Catat Gejala"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#F3F1F1"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/History"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/History"
+        app:layout_constraintTop_toBottomOf="@+id/History"
+        tools:visibility="visible" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

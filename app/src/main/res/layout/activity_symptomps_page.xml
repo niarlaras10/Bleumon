@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SymptompsPage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textField1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Kehabisan Napas"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/minusButton1"
+                android:backgroundTint="#3F51B5"
+                android:background="@android:drawable/btn_default"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:text="-"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/numberTextView1"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:text="0"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/plusButton1"
+                android:backgroundTint="#3F51B5"
+                android:background="@android:drawable/btn_default"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:text="+"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- Repeat the same layout structure for the remaining four lines -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textField2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Nausea"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/minusButton2"
+                android:backgroundTint="#3F51B5"
+                android:background="@android:drawable/btn_default"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:text="-"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/numberTextView2"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:text="0"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/plusButton2"
+                android:backgroundTint="#3F51B5"
+                android:background="@android:drawable/btn_default"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:text="+"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textField3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Merasa Pusing"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/minusButton3"
+                android:backgroundTint="#3F51B5"
+                android:background="@android:drawable/btn_default"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:text="-"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/numberTextView3"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:text="0"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/plusButton3"
+                android:backgroundTint="#3F51B5"
+                android:background="@android:drawable/btn_default"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:text="+"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textField4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Black Out"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/minusButton4"
+                android:backgroundTint="#3F51B5"
+                android:background="@android:drawable/btn_default"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:text="-"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/numberTextView4"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:text="0"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/plusButton4"
+                android:backgroundTint="#3F51B5"
+                android:background="@android:drawable/btn_default"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:text="+"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textField5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="Rasa Sakit di Dada"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/minusButton5"
+                android:backgroundTint="#3F51B5"
+                android:background="@android:drawable/btn_default"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:text="-"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/numberTextView5"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:text="0"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/plusButton5"
+                android:backgroundTint="#3F51B5"
+                android:background="@android:drawable/btn_default"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:text="+"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="15dp"
+        android:text="Angka di atas berarti skala keparahan jika anda merasakan gejala yang disebutkan"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingRight="15dp"
+        android:textSize="20sp"
+        android:text=" 0 = tidak merasakan gejala" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingRight="15dp"
+        android:textSize="20sp"
+        android:text=" 1 = gejala sangat ringan" />
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingRight="15dp"
+        android:textSize="20sp"
+        android:text=" 2 = gejala ringan" />
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingRight="15dp"
+        android:textSize="20sp"
+        android:text=" 3 = gejala menengah" />
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingRight="15dp"
+        android:textSize="20sp"
+        android:text=" 4 = gejala parah" />
+
+    <!-- Repeat the same layout structure for the remaining three lines -->
+    <Button
+        android:id="@+id/symptomHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_default"
+        android:backgroundTint="#3F51B5"
+        android:paddingLeft="20dp"
+        android:paddingTop="10sp"
+        android:text="Lihat Histori"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:hapticFeedbackEnabled="true" />
+</LinearLayout>

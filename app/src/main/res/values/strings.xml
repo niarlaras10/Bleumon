@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="email">example@email.com</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_sign_in">Do not have account</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="signed">Signed up</string>
+    <string name="already_have_an_account_login">Already have an account</string>
+    <string name="splash_screen_image_description">splash screen</string>
+    <string name="title_activity_login2">LoginActivity2</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="measure">"Measure"</string>
+    <string name="history">"History"</string>
+    <string name="feature">"Feature"</string>
+    <string name="dateofbirth">Date of Birth</string>
+    <string name="name">Name </string>
+    <string name="web_client_id">365598797327-j8duglrbg4timvj3hmp30974utb4g27u.apps.googleusercontent.com</string>
+    <string name="title_activity_symptomps_history">Symptomps_History</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>

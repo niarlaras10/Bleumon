@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AutomaticMeasure">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="309dp"
+        android:layout_weight="1"
+        android:paddingLeft="18dp">
+
+        <TextView
+            android:id="@+id/autoMeasureResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:padding="30sp"
+            android:paddingTop="96dp"
+            android:text="Hasil Pengukuran Anda"
+            android:textSize="35sp" />
+
+        <!-- Use a vertical LinearLayout to place mgDlTextView and yourNewTextView under autoMeasureResult -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/autoMeasureResult"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:paddingTop="25dp">
+
+            <!-- Add your new TextView here -->
+            <TextView
+                android:id="@+id/yourGlucoseLevel"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:hint="Kadar gula darah"
+                android:paddingLeft="15dp"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/mgDlTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:paddingLeft="5dp"
+                android:text="mg/dL"
+                android:textSize="40sp" />
+        </LinearLayout>
+
+        <!-- Add the TextView for displaying "Your Result" -->
+
+        <TextView
+            android:id="@+id/yourResultTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="312dp"
+            android:fontFamily="sans-serif-black"
+            android:paddingLeft="16dp"
+            android:paddingRight="20dp"
+            android:text="Kategorisasi Anda"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="false"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="100dp">
+
+        <Button
+            android:id="@+id/connectButton"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="25dp"
+            android:fontFamily="sans-serif-black"
+            android:backgroundTint="@color/blue"
+            android:background="@android:drawable/btn_default"
+            android:text="Menyalakan Koneksi" />
+
+        <Button
+            android:id="@+id/start_measure"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="sans-serif-black"
+            android:backgroundTint="@color/blue"
+            android:background="@android:drawable/btn_default"
+            android:text="Mulai Ukur" />
+
+
+    </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:paddingRight="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/fasting_button"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="8dp"
+                android:background="@android:drawable/btn_default"
+                android:backgroundTint="#3F51B5"
+                android:fontFamily="sans-serif-black"
+                android:text="Puasa" />
+
+            <Button
+                android:id="@+id/non_fasting_button"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="sans-serif-black"
+                android:backgroundTint="#3F51B5"
+                android:background="@android:drawable/btn_default"
+                android:text="Setelah Makan" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>
